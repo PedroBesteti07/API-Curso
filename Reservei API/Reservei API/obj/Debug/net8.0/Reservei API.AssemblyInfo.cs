@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Reservei API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a3cfb98eacaf9a5ddc450b9a2281b8e9a4c34791")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a51080bf37e434a2d74919f58cb3cd58048b5d59")]
 [assembly: System.Reflection.AssemblyProductAttribute("Reservei API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Reservei API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
