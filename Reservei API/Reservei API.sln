@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reservei API", "Reservei API\Reservei API.csproj", "{A8B02CEF-8BC3-4DC2-A9F6-6460D7A73348}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A8B02CEF-8BC3-4DC2-A9F6-6460D7A73348}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8B02CEF-8BC3-4DC2-A9F6-6460D7A73348}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8B02CEF-8BC3-4DC2-A9F6-6460D7A73348}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8B02CEF-8BC3-4DC2-A9F6-6460D7A73348}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80067B5E-AF84-4AA8-A8A6-F45D6CC59E7E}
+	EndGlobalSection
+EndGlobal
