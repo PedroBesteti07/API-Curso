@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Reservei API.props" />
+</Project>
