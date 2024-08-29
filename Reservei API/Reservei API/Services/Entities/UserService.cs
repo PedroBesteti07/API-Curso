@@ -30,5 +30,27 @@ namespace Reservei_API.Services.Entities
             if (UserModel is not null) userModel.Passworduser = "";
             return _mapper.Map<UserDTO>(userModel);
         }
+        public async Task Create(UserDTO userDTO)
+        {
+            var userModel = _mapper.Map<UserModel>(userDTO);
+            await _userRepository.Create(userModel);
+
+            userDTO.Id = userModel.Id;
+            userDTO.PasswordUser = "";
+        }
+        public async Task Update(UserDTO userDTO)
+        {
+            var userModel = _mapper.Map<UserModel>(userDTO);
+            await _userRepository.Update(userModel);
+
+            userModel.PasswordUser = "";
+        }
+        public async Task Delete(UserDTO userDTO)
+        {
+            var userModel = _mapper.Map<UserModel>(userDTO);
+            await _userRepository.Delete(userMdoel);
+
+            userDTO.PasswordUser = "";
+        }
     }
 }
