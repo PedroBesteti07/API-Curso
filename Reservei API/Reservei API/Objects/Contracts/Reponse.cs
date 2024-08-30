@@ -8,10 +8,10 @@ namespace Reservei_API.Objects.Contracts
         public object? Data { get; set; }
 
         public void SetSuccess() => Status = ResponseEnum.Success;
-        public void SetInvalid() => Status + ResponseEnum.Invalid;
-        public void SetNotFound() => Status + ResponseEnum.NoFound;
-        public void SetConflict() => Status + ResponseEnum.Conflict;
-        public void SetUnauthorized() => Status + ResponseEnum.Unauthorized;
-        public void SetError() => Status + ResponseEnum.Error;
+        public void SetInvalid() => Status = ResponseEnum.Invalid;
+        public void SetNotFound() => Status = ResponseEnum.NotFound;
+        public void SetConflict() => Status = ResponseEnum.Conflict;
+        public void SetUnauthorized() => Status = ResponseEnum.Unauthorized;
+        public void SetError() => Status = ResponseEnum.Error;
     }
 }

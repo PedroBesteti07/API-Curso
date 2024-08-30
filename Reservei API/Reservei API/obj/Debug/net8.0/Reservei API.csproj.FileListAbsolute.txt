@@ -102,3 +102,14 @@ C:\Users\Aluno\Desktop\Reservei API Pedro\Reservei API\Reservei API\obj\Debug\ne
 C:\Users\Aluno\Desktop\Reservei API Pedro\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.pdb
 C:\Users\Aluno\Desktop\Reservei API Pedro\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.genruntimeconfig.cache
 C:\Users\Aluno\Desktop\Reservei API Pedro\Reservei API\Reservei API\obj\Debug\net8.0\ref\Reservei API.dll
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.csproj.AssemblyReference.cache
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.AssemblyInfoInputs.cache
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.AssemblyInfo.cs
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.sourcelink.json
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.dll
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\refint\Reservei API.dll
+C:\Users\Aluno\Desktop\API-Curso\Reservei API\Reservei API\obj\Debug\net8.0\Reservei API.pdb

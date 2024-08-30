@@ -26,7 +26,7 @@ namespace Reservei_API.Objects.Utilities
 
             if (atCount != 1) return -1;
             else if (!hasTextBeforeAt) return -1;
-            else if (!hasTextaAfterAt) return -2;
+            else if (!hasTextAfterAt) return -2;
             else if (!hasDotAfterAt) return -2;
             else if (endsWithDot) return -1;
             return 1;

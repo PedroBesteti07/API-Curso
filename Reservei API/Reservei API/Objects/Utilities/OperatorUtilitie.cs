@@ -1,4 +1,4 @@
-﻿using System.GLobalization;
+﻿using System.Globalization;
 using System.Security.Cryptography;
 using System.Text;
 
