@@ -22,6 +22,14 @@ namespace Reservei_API.Repositories.Entities
         {
             return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.Id == id);
         }
+        public async Task<UserModel> GetByEmail(string email)
+        {
+            return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == email);
+        }
+        public async Task<UserModel> Login(Login login)
+        {
+            return await _dbContext.Users.AsNoTracking().FirstOrDefaultAsync(u => u.EmailUser == login.Email && u.PasswordUser == login.Password);
+        }
         public async Task<UserModel>Create(UserModel userModel)
         {
             _dbContext.Users.Add(userModel);

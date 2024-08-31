@@ -10,7 +10,7 @@ namespace Reservei_API.Objects.Utilities
 
         public static bool CheckValidPhone(string phone)
         {
-            int phoneLenght = OperatorUtilitie.ExtractNumbers(phone).Length;
+            int phoneLength = OperatorUtilitie.ExtractNumbers(phone).Length;
             return phoneLength > 9 && phoneLength < 12;
         }
 

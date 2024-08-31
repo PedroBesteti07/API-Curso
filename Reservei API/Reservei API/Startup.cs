@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.OpenApi.Models;
+using Reservei_API.Contexts;
 using Reservei_API.Services.Server;
 using Swashbuckle.AspNetCore.SwaggerUI;
 using System.Reflection;
@@ -18,8 +19,8 @@ namespace Reservei_API
         public void ConfigureServices(IServiceCollection services)
         {
             //Configuração do banco de dados
-            services.AddDbContext<AppDbContext>(options =>
-                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection");
+            services.AddDbContext<AppDBContext>(options =>
+                options.UseNpgsql(Configuration.GetConnectionString("DefaultConnection")));
 
             //Configuração do Swagger
             services.AddSwaggerGen(c =>
@@ -48,7 +49,7 @@ namespace Reservei_API
             {
                 app.UseDeveloperExceptionPage();
                 app.UseSwagger();
-                app.UseSwagger(c =>
+                app.UseSwaggerUI(c =>
                 {
                     c.SwaggerEndpoint("/swagger/v1/swagger.json", "Sua API V1");
                     c.DocExpansion(DocExpansion.None);

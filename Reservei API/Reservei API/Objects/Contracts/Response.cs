@@ -1,7 +1,6 @@
-﻿
-namespace Reservei_API.Objects.Contracts
+﻿namespace Reservei_API.Objects.Contracts
 {
-    public class Reponse
+    public class Response
     {
         public ResponseEnum Status { get; set; }
         public string? Message { get; set; }
